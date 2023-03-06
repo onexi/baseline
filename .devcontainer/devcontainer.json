@@ -9,7 +9,7 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.copilot",
-				"MS-vsliveshare.vsliveshare-pack"
+				"MS-vsliveshare.vsliveshare"
 			]
 		}
 	},
