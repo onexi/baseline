@@ -5,14 +5,17 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-toolsai.jupyter",
-                "GitHub.copilot"
-            ]
-        }
-    }	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"MS-vsliveshare.vsliveshare-pack"
+			]
+		}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip3 install -r requirements.txt"	    
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
